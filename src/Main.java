@@ -15,7 +15,7 @@ public class Main {
         int bonus = payment * percent / 100;
 
         System.out.println("Итоговая сумма на счете " + (account + payment));
-        System.out.println("Итоговая сумма бонусов " + bonus);
+        System.out.println("Итоговая сумма на счете с учетом бонусов " + (account + payment + bonus));
 
 
     }
