@@ -5,16 +5,17 @@ public class Main {
 
         int percent;
 
-        if (payment > 1000) {percent = 1;}
-        else {
+        if (payment > 1000) {
+            percent = 1;
+        } else {
             percent = 0;
 
         }
 
         int bonus = payment * percent / 100;
 
-        System.out.println( "Итоговая сумма на счете " + (account + payment) );
-        System.out.println( "Итоговая сумма бонусов " + bonus);
+        System.out.println("Итоговая сумма на счете " + (account + payment));
+        System.out.println("Итоговая сумма бонусов " + bonus);
 
 
     }
